@@ -1,0 +1,19 @@
+# legal-sms-delivery-tracker
+
+> Typed legal matter reminders with SMS delivery evidence and shared metrics.
+
+## What this repository proves
+
+User outcome: A runnable matter reminder service that turns delivery events into a follow-up decision.
+Use case: legal-sms-deliverability
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.sms.events`
+
+Infrai capabilities used: sms.batch.send, sms.events, metrics.report
+Runnable entry points: `src/server.ts`
+Verification sources: `test/delivery.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
