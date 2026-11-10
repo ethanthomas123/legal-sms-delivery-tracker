@@ -45,3 +45,7 @@ That was the minimal slice. Before you run it for real, read this. These notes a
 **Legal SMS Delivery Tracker: SMS (required for real sending)**
 - **Legal SMS Delivery Tracker:** Most carriers/regions want a **pre-approved template and signature** before delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then use the template id when sending.
 - **Legal SMS Delivery Tracker:** Sandbox/test numbers might skip it; production traffic won't.
+
+## Further reading
+
+- [SMS OTP Resend: 4 Passwordless Phone Login Handoff Decisions Explained](docs/sms-otp-resend-4-passwordless-phone-login-handoff-1deizi.md)
