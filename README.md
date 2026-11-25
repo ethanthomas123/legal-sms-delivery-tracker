@@ -48,4 +48,5 @@ That was the minimal slice. Before you run it for real, read this. These notes a
 
 ## Further reading
 
+- [Node.js SMS Compliance Notices: Preserve Polling Evidence Before Home Security Escalation](docs/node-js-sms-compliance-notices-preserve-polling-e-cuuihf.md)
 - [SMS OTP Resend: 4 Passwordless Phone Login Handoff Decisions Explained](docs/sms-otp-resend-4-passwordless-phone-login-handoff-1deizi.md)
